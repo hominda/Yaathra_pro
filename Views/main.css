@@ -28,6 +28,15 @@
     border: 1.5px solid #cccccc;
     height: 100%; 
 }
+<<<<<<< HEAD
+.mm{
+	display:inline; 
+	float:left; 
+	margin:-35px -50px -135px -45px;
+    
+}
+=======
+>>>>>>> master
 
 
 @import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css);
