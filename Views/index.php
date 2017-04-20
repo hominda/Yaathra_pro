@@ -8,6 +8,19 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<<<<<<< HEAD
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+ 
+</head>
+
+
+<body>
+<!-- add nav bar -->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"><img src="logo.png" class="mm" height="90" width="250"></a>
+=======
 
 </head>
 <body>
@@ -17,6 +30,7 @@
     
     <div class="navbar-header">
       <a class="navbar-brand" href="#">Yaathra</a>
+>>>>>>> master
     </div>
 
      <form class="navbar-form navbar-left">
@@ -46,17 +60,29 @@
 
 
 <div class="col-md-12 left-sidebar">
+<<<<<<< HEAD
+ <button type="button" class="btn btn-success btn-md" data-toggle="modal" data-target="#myModal">
+=======
  <button type="button" class="btn btn-success btn-md">
+>>>>>>> master
       <span class="glyphicon glyphicon-plus"></span> ASK A QUESTION
     </button>
 
 </div>
 
+<<<<<<< HEAD
+
+<!-- create side bar manu -->
+<div class="container">
+    <div class="row">
+        <div class="col-xs-2 ">
+=======
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 <!-- create side bar manu -->
 <div class="container">
     <div class="row">
         <div class="col-xs-2 bordered">
+>>>>>>> master
             <ul class="nav nav-pills nav-stacked">
                 
                 <li><a href="#"><i class="glyphicon glyphicon-question-sign"></i>  Questions</a></li>
@@ -71,12 +97,44 @@
 </div>
 
 
+<<<<<<< HEAD
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h3 class="modal-title">Ask a Question</h3>
+        </div>
+        <div class="modal-body" style="height:400px;">
+             <object type="text/php" data="askquestion.php"
+            style="width:100%; height:100%; margin:1%;">
+    </object>
+      </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary btn-md">SUBMIT QUESTION</button>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+
+        </div>
+      
+      
+    </div>
+  </div>
+
+
+
+
+  
+=======
 
 
   <!-- <h3>Navbar Forms</h3>
   <p>Use the .navbar-form class to vertically align form elements (same padding as links) inside the navbar.</p>
   <p>The .input-group class is a container to enhance an input by adding an icon, text or a button in front or behind it as a "help text".</p>
   <p>The .input-group-btn class attaches a button next to an input field. This is often used as a search bar:</p> -->
+>>>>>>> master
 
 
 </body>
