@@ -1,12 +1,13 @@
 .container-fluid{
- padding-top: 15px;
- padding-bottom: 30px;
+    padding-top: 15px;
+    padding-bottom: 30px;
 }
 
 .input-group{
 	position: absolute;  
-    left: 110px; 
-	}
+    left: 11px;
+}
+
 .tab{
 	position: absolute;  
     right: 200px; 
@@ -37,19 +38,3 @@
 }
 =======
 >>>>>>> master
-
-
-@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css);
-body{margin-top:20px;}
-.fa-fw {width: 2em;}
-
-.container{
-	position: absolute;  
-	top:180px;
-   left: 2px; 
-	}
-
-    
-
-
-
