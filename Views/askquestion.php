@@ -17,22 +17,8 @@
 	</head>
 	<body>
 		<!--Ask a question form  -->
-	<form action="" method="post"  >
-
- <select class="form-control" id="sel1">
-        <option>Select a category</option>
-        <option>2</option>
-        <option>3</option>
-        <option>4</option>
-      </select>
-
-
-
 		<!-- text editor -->
-		<div class="col-lg-10 nopadding">
-		<textarea id="txtEditor"  ></textarea> 	
+			
 
-		
-		</form>
 	</body>
 </html>
