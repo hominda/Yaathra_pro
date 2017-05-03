@@ -78,15 +78,25 @@ body { padding-right: 0 !important }
 </nav>
 
 
-
-
-
-<div class="col-md-12 ">
+<table>
+<col width="235">
+   <col width="880">
+   <tr><td>
+<div class="col-md-12">
  <button type="button" class="btn btn-success btn-md" data-toggle="modal" data-target="#myModal">
       <span class="glyphicon glyphicon-plus"></span> ASK A QUESTION
-    </button>
+    </button></div></td>
+<!-- question tab -->
+<td>
+<div class="col-md-4">
+<ul class="nav nav-tabs">
+    <li class="active"><a  data-toggle="pill" href="#menu1">Latest</a></li>
+    <li><a data-toggle="pill" href="#menu2">Votes</a></li>
+    <li><a  data-toggle="pill" href="#menu3"> Unanswered</a></li>
+</ul>
+</div></td></tr></table>
+  <!-- ---- -->
 
-</div>
 
 
 <!-- for cheeck login details -->
@@ -153,7 +163,7 @@ if(isset($_POST['submit'])){
             <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
             <center><strong>Successfully Added!</strong> pleace wating few minute for check.
             </center></div>';
-            header("Refresh:4");
+            // header("Refresh:4");
 
     }
     else{
@@ -165,7 +175,7 @@ if(isset($_POST['submit'])){
    <center> <strong>UnSuccessful!</strong> missing data or some thing.
      </div></center>
       </div>';
-      header("Refresh:4");
+      // header("Refresh:4");
     }
   }
 
@@ -263,7 +273,17 @@ if(isset($_POST['submit'])){
 <!-- sakjaskjksjfd --> 
 
 <!-- get question details from database -->
-<?php
+
+
+
+
+
+
+
+<div class="tab-content">
+   
+  <div id="menu1" class="tab-pane fade in active">
+  <?php
 include('db_connect.php');
 $query1= $db->prepare("SELECT q_id,category,body,tag FROM questions order by q_id desc ");
 $query1->execute();
@@ -274,7 +294,7 @@ $query1->bind_result($q_id,$category,$body,$tag);
 <?php while($query1->fetch()):
 ?>
 <!-- show questions -->
-<div class="aa" >
+<div class="aa">
   <table>
     <col width="630">
    <col width="80">
@@ -298,14 +318,19 @@ $query1->bind_result($q_id,$category,$body,$tag);
 <p>Tag : <?php echo $tag?></p>
  <p>Category :<?php echo $category?></p>
 
-
-
-
-
 </div>
 <?php endwhile?>
+    </div>
 
-</div>
+    <div id="menu2" class="tab-pane fade">
+      <div class="a1"><h3>Menu 1</h3>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
+    </div>
+    <div id="menu3" class="tab-pane fade">
+      <div class="a2"><h3>Menu 3</h3>
+      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p></div>
+    </div>
+  </div>
 
 
 <!-- ask question window -->
