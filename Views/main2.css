@@ -1,4 +1,27 @@
+
 .aa {
+    margin-left: 250px;
+    margin-right: 300px;
+    border-left: 1px solid rgb(43, 128, 181);
+    border-top: 1px solid rgb(43, 128, 181);
+    border-right: 1px solid rgb(43, 128, 181);
+    padding: 1em;
+    overflow: hidden;
+    background-color: rgb(252, 252, 252);
+}
+
+.a1 {
+    margin-left: 250px;
+    margin-right: 300px;
+    border-left: 1px solid rgb(43, 128, 181);
+    border-top: 1px solid rgb(43, 128, 181);
+    border-right: 1px solid rgb(43, 128, 181);
+    padding: 1em;
+    overflow: hidden;
+    background-color: rgb(252, 252, 252);
+}
+
+.a2 {
     margin-left: 250px;
     margin-right: 300px;
     border-left: 1px solid rgb(43, 128, 181);
