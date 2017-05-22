@@ -1,5 +1,15 @@
+.chip {
+    display: inline-block;
+    padding: 0 25px;
+    height: 30px;
+    font-size: 16px;
+    line-height: 30px;
+    border-radius: 25px;
+    background-color:#B1BABD;
+}
 
-.aa {
+
+.ba {
     margin-left: 250px;
     margin-right: 300px;
     border-left: 1px solid rgb(43, 128, 181);
@@ -31,17 +41,72 @@
     overflow: hidden;
     background-color: rgb(252, 252, 252);
 }
+.a3{
+    margin-left: 15px;
+        margin-right: 66px;
+    border-left: 1px solid rgb(43, 128, 181);
+        border-top: 1px solid rgb(43, 128, 181);
+    border-right: 1px solid rgb(43, 128, 181);
+   padding: 1em;
+    overflow: hidden;
+    background-color: rgb(252, 252, 252);
+}
+.a4{
+    margin-left: 0px;
+        margin-right: 51px;
+    border-left: 1px solid rgb(43, 128, 181);
+        border-top: 1px solid rgb(43, 128, 181);
+    border-right: 1px solid rgb(43, 128, 181);
+   
+    overflow: hidden;
+    background-color: rgb(252, 252, 252);
+}
+.aa {
+    margin-left: 250px;
+    margin-right: 300px;
+    border-left: 1px solid rgb(43, 128, 181);
+    border-top: 1px solid rgb(43, 128, 181);
+    border-right: 1px solid rgb(43, 128, 181);
+    padding: 1em;
+    overflow: hidden;
+    background-color: rgb(252, 252, 252);
+}
+.a5{
+    margin-left: 235px;
+        margin-right: 285px;
+    border-left: 1px solid rgb(43, 128, 181);
+        border-top: 1px solid rgb(43, 128, 181);
+    border-right: 1px solid rgb(43, 128, 181);
+    border-bottom: 1px solid rgb(43, 128, 181);
+   padding-right: 4em;
+   padding-left: 4em;
+    overflow: hidden;
+    background-color: rgb(252, 252, 252);
+}
+.bb {
+    margin-left: 260px;
+    margin-right: 330px;
+    border-right: 1px solid rgb(43, 128, 181);
+    border-left: 1px solid rgb(43, 128, 181);
+    border-top: 1px solid rgb(43, 128, 181);
+    border-bottom: 1px solid rgb(43, 128, 181);
+    padding: 1em;
+    overflow: hidden;
+    background-color: rgb(252, 252, 252);
+}
+
+
 
 
 .numberCircle {
     border-radius: 50%;
-    width: 60px; 
-    font-size: 22px;
+    width: 50px; 
+    font-size: 16px;
     border: 1px solid #666;
 
 }
 .numberCircle span {
     text-align: center;
-    line-height: 60px;
+    line-height: 50px;
     display: block;
 }

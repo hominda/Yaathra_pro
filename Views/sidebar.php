@@ -6,12 +6,11 @@
 </head>
 <body>
 
-<div class="container">
-    <div class="row">
-        <div class="col-xs-2 ">
+
+        <div class="col-sm-2" >
             <ul class="nav nav-pills nav-stacked">
                 
-                <li><a href="#"><i class="glyphicon glyphicon-question-sign"></i>  Questions</a></li>
+                <li class="active"><a href="http://localhost/Yaathra_pro/Views/"><i class="glyphicon glyphicon-question-sign"></i>  Questions</a></li>
                 <li><a href="#"><i class="glyphicon glyphicon-tags"></i>  Tags</a></li>
                 <li><a href="#"><i class="fa fa-trophy"></i>  Badges</a></li>
                 <li><a href="#"><i class="fa fa-th-list"></i>  Categories</a></li>
@@ -19,8 +18,7 @@
             </ul>
         </div>
         
-    </div>
-</div>
+    
 
 </body>
 </html>

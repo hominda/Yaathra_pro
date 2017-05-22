@@ -1,8 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"  rel="stylesheet">
+  <link  href="bootstrap-chosen.css"  rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://bootstrap-tagsinput.github.io/bootstrap-tagsinput/dist/bootstrap-tagsinput.css">
+
+<script src="http://bootstrap-tagsinput.github.io/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js"></script>
+
 </head>
 <body>
 
@@ -35,19 +47,25 @@
 
 
     <div class="col-xs-12">
-        <input type="text" class="form-control" placeholder="Tags(max 5 tags)"  name="tag" id="tag"></div>
+       
+
+    <input type="text" class="form-control"  data-role="tagsinput" name="tag"
+     placeholder="Tags (maximum 5 tags)     "></input>
+
+
+    </div>
 
       </div>
 
 
         <div class="modal-footer">
+
           <button type="submit" name="submit"  class="btn btn-primary btn-md">SUBMIT QUESTION</button>
           <php><button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
         </div>
         </form>
       
       
-    </div>
-
+   
 </body>
 </html>

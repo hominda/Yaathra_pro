@@ -8,7 +8,7 @@
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#"><img src="logo.png" class="mm" height="90" width="250"></a>
+      <a class="navbar-brand" href="http://localhost/Yaathra_pro/Views/"><img src="logo.png" class="mm" height="90" width="250"></a>
     </div>
 
      <form class="navbar-form navbar-left">
@@ -23,7 +23,7 @@
     </form>
     <div class="tab">
     <ul class="nav navbar-nav navbar-right"> 
-      <li class="active"><a href="#">Home</a></li>
+      <li class="active"><a href="http://localhost/Yaathra_pro/Views/">Home</a></li>
       <li><a href="#">About us</a></li>
       <li><a href="#">Blog</a></li>  
       <li><a href="#">Contact</a></li>  
