@@ -202,8 +202,14 @@ if(isset($_POST['submit'])){
 <div class="container-">
     <div class="row">
 
+
+
+
 <!-- Add side bar manu -->
+<div class="col-sm-2" >
 <?php include('sidebar.php');?>
+</div>
+
 
  <div class="col-sm-20" >
 <div class="tab-content">
@@ -211,9 +217,9 @@ if(isset($_POST['submit'])){
   <div id="menu1" class="tab-pane fade in active">
   <?php
 include('db_connect.php');
-$query1= $db->prepare("SELECT q_id,category,body,tag,date FROM questions order by q_id desc  limit $start, $per_page");
+$query1= $db->prepare("SELECT q_id,category,body,tag,date,answers FROM questions order by q_id desc  limit $start, $per_page");
 $query1->execute();
-$query1->bind_result($q_id,$category,$body,$tag,$date);
+$query1->bind_result($q_id,$category,$body,$tag,$date,$answers);
 
 ?>
 
@@ -231,7 +237,7 @@ $query1->bind_result($q_id,$category,$body,$tag,$date);
     
     <td ><a itemprop="url" href='answers.php?id=<?php echo $q_id?>'><h4 style="color:#3C3F40;"><?php echo $body?></h4></a></td >
     <td ><center> <div class="numberCircle"><span>1</span></div></center></td>
-    <td > <center><div class="numberCircle"><span>1</span></div></center></td> 
+    <td > <center><div class="numberCircle"><span><?php echo $answers?></span></div></center></td> 
     <td ><center> <div class="numberCircle"><span>1</span></div></center></td>  
 </tr>
 <tr>

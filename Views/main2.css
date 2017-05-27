@@ -7,6 +7,29 @@
     border-radius: 25px;
     background-color:#B1BABD;
 }
+.qt {
+    margin-left: 260px;
+    margin-right: 300px;
+    border-left: 1px solid rgb(43, 128, 181);
+    border-top: 1px solid rgb(43, 128, 181);
+    border-right: 1px solid rgb(43, 128, 181);
+     border-bottom: 1px solid rgb(43, 128, 181);
+   
+    padding: 1em;
+    overflow: hidden;
+    background-color: rgb(252, 252, 252);
+}
+.tt {
+    margin-left: 260px;
+    margin-right: 300px;
+    border-left: 1px solid rgb(43, 128, 181);
+    border-top: 1px solid rgb(43, 128, 181);
+    border-right: 1px solid rgb(43, 128, 181);
+   border-bottom: 1px solid rgb(43, 128, 181);
+    padding: 1em;
+    overflow: hidden;
+    background-color: rgb(252, 252, 252);
+}
 
 
 .ba {
@@ -61,6 +84,17 @@
     overflow: hidden;
     background-color: rgb(252, 252, 252);
 }
+.ca {
+    margin-left: 250px;
+    margin-right: 300px;
+    border-left: 1px solid rgb(43, 128, 181);
+    border-top: 1px solid rgb(43, 128, 181);
+    border-right: 1px solid rgb(43, 128, 181);
+    padding: 1em;
+    overflow: hidden;
+    background-color: rgb(252, 252, 252);
+}
+
 .aa {
     margin-left: 250px;
     margin-right: 300px;
@@ -71,6 +105,8 @@
     overflow: hidden;
     background-color: rgb(252, 252, 252);
 }
+
+
 .a5{
     margin-left: 235px;
         margin-right: 285px;
@@ -85,7 +121,7 @@
 }
 .bb {
     margin-left: 260px;
-    margin-right: 330px;
+    margin-right: 300px;
     border-right: 1px solid rgb(43, 128, 181);
     border-left: 1px solid rgb(43, 128, 181);
     border-top: 1px solid rgb(43, 128, 181);
@@ -94,6 +130,7 @@
     overflow: hidden;
     background-color: rgb(252, 252, 252);
 }
+
 
 
 
