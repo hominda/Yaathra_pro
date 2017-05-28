@@ -66,13 +66,27 @@ $start = $page * $per_page-$per_page;}
 $prev=$page-1;
 $next=$page +1;?> 
 
+<?php 
+session_start();
+//connect to database
+
+include('db_connect.php');
+if(isset($_SESSION['user_id'])){
+  $target="#myModal";
+}
+else{
+  $target="#logModal";
+}
+?>
+
 
 <table>
 <col width="235">
    <col width="880">
    <tr><th>
 <div class="col-md-12">
- <button type="button" class="btn btn-success btn-md" data-toggle="modal" data-target="#myModal">
+  
+ <button type="button" class="btn btn-success btn-md" data-toggle="modal" data-target=<?php echo $target ?>>
       <span class="glyphicon glyphicon-plus"></span> ASK A QUESTION
     </button></div></th>
 <!-- question tab -->
@@ -98,7 +112,7 @@ $next=$page +1;?>
 
 <!-- for cheeck login details -->
 <?php
-session_start();
+
 if(isset($_POST['submit1'])){
   $uname= $_POST['uname'];
   $pwrd= $_POST['pwrd'];

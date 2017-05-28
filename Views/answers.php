@@ -102,7 +102,7 @@ $query1->bind_result($ans_id,$body,$date);
 <?php while($query1->fetch()):
 ?>
 <!-- show Answers -->
-<div class="qt">
+<div class="tt">
 
     
     <h4 style="color:#3C3F40;"><?php echo $body?></h4>
