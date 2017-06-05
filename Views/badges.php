@@ -13,7 +13,7 @@
   <link rel="stylesheet" type="text/css" href="main.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <script src="editor.js"></script>
     <script>
@@ -66,9 +66,9 @@ body { padding-right: 0 !important }
 <body>
 
     <?php 
-session_start();
-//connect to database
 
+//connect to database
+session_start();
 include('db_connect.php');
 if(isset($_SESSION['user_id'])){
   $target="#myModal";
@@ -100,6 +100,7 @@ if(isset($_POST['submit1'])){
     if($query->num_rows ===1){
       while($row=$query->fetch_object()){
       $_SESSION['user_id']=$row->user_id;
+      $_SESSION['username']=$row->username;
     }
       header('Location:index.php');
 

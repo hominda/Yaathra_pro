@@ -117,14 +117,13 @@
 
 
 .a5{
-    margin-left: 235px;
-        margin-right: 285px;
+     margin-left: 250px;
+    margin-right: 300px;
     border-left: 1px solid rgb(43, 128, 181);
         border-top: 1px solid rgb(43, 128, 181);
     border-right: 1px solid rgb(43, 128, 181);
     border-bottom: 1px solid rgb(43, 128, 181);
-   padding-right: 4em;
-   padding-left: 4em;
+  ;
     overflow: hidden;
     background-color: rgb(252, 252, 252);
 }

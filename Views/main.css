@@ -11,13 +11,18 @@
 	position: absolute;  
     right: 300px; 
 	}
-
+.btnprofile{
+	position: absolute;  
+	top:22px;
+    right:60px; 
+	}
 
 .btnlogin{
 	position: absolute;  
 	top:22px;
     right: 20px; 
 	}
+
 
 .verticalLine {
    width: 1px; /* Line width */
